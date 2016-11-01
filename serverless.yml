@@ -1,0 +1,13 @@
+service: redirect-example
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  redirect:
+    handler: handler.redirect
+    events:
+      - http:
+         path: examples/redirect
+         method: get
