@@ -1,8 +1,8 @@
 # serverless-redirect-example
 
-This is a simple serverless project designed to demonstrate the new way of achieving redirects in v1 of the serverless framework.
-
 We just started playing with the v1 of the serverless framework after building a [serverless hipchat plugin boilerplate repository](https://github.com/GorillaStack/serverless-hipchat-connect) and an [example plugin that aggregates CloudWatch Alarms](https://github.com/GorillaStack/serverless-hipchat-sns-cloudwatch-alarms) in version 0.5.6 of the serverless framework.
+
+This is a simple serverless project designed to demonstrate the new way of achieving redirects in v1 of the serverless framework.
 
 ### The old way:
 
