@@ -9,5 +9,12 @@ functions:
     handler: handler.redirect
     events:
       - http:
-         path: examples/redirect
-         method: get
+          path: examples/redirect
+          method: get
+          response:
+            statusCodes:
+              302:
+                pattern: ''
+                template: $input.path('$')
+                headers:
+                  Location: "'https://www.gorillastack.com'"
